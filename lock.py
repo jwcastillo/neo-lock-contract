@@ -3,9 +3,6 @@ from boa.blockchain.vm.Neo.Runtime import Notify
 from boa.blockchain.vm.Neo.Blockchain import GetHeight, GetHeader
 from boa.blockchain.vm.Neo.Header import GetIndex, GetHash, GetNextConsensus, GetTimestamp
 
-
-
-
 def Main(operation, key, stop):
    
     context = GetContext()
